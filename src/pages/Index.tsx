@@ -37,7 +37,7 @@ const Index = () => {
       id: 1,
       name: 'Абрама на час',
       price: 19990,
-      image: 'https://v3b.fal.media/files/b/zebra/eMBk-BioRGXMKPWnnTtAk_output.png',
+      image: 'https://cdn.poehali.dev/files/a754dd4a-5872-4943-a8c6-89d234f513c2.jpg',
       category: 'Популярное',
       description: 'Абрама в вашем распоряжении целый час'
     },
@@ -45,7 +45,7 @@ const Index = () => {
       id: 2,
       name: 'Абрама на день',
       price: 20499,
-      image: 'https://v3b.fal.media/files/b/zebra/eMBk-BioRGXMKPWnnTtAk_output.png',
+      image: 'https://cdn.poehali.dev/files/9cc8a5ae-8485-4a21-b426-42a9883f90be.jpg',
       category: 'Хит продаж',
       description: 'Целый день с Абрамой'
     },
@@ -53,7 +53,7 @@ const Index = () => {
       id: 3,
       name: 'Абрама на всегда',
       price: 0,
-      image: 'https://v3b.fal.media/files/b/zebra/eMBk-BioRGXMKPWnnTtAk_output.png',
+      image: 'https://cdn.poehali.dev/files/607e056e-f367-4aec-8c5a-2b384ccb3328.jpg',
       category: 'Бесплатно',
       description: 'Абрама остается с вами навсегда'
     }
