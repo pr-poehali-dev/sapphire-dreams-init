@@ -15,6 +15,7 @@ interface Product {
   image: string;
   category: string;
   description?: string;
+  discount?: number;
 }
 
 interface CartItem extends Product {
@@ -71,7 +72,8 @@ const Index = () => {
       price: 9,
       image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/8c0e0c0b-04a7-46c6-809c-d92c74a37bc7.jpg',
       category: 'Почасовая оплата',
-      description: '9₽ в секунду - выгодное предложение'
+      description: '9₽ в секунду - выгодное предложение',
+      discount: 109
     }
   ];
 
@@ -186,7 +188,7 @@ const Index = () => {
                               />
                               <div className="flex-1">
                                 <h3 className="font-semibold text-sm">{item.name}</h3>
-                                <p className="text-lg font-bold text-primary mt-1">
+                                <p className="text-lg font-bold text-red-600 mt-1">
                                   {item.price === 0 ? 'Бесплатно' : `${item.price} ₽`}
                                 </p>
                                 <div className="flex items-center gap-2 mt-2">
@@ -227,7 +229,7 @@ const Index = () => {
                       <CardContent className="p-4">
                         <div className="flex justify-between items-center text-xl font-bold">
                           <span>Итого:</span>
-                          <span className="text-primary">
+                          <span className="text-red-600">
                             {getTotalPrice() === 0 ? 'Бесплатно' : `${getTotalPrice()} ₽`}
                           </span>
                         </div>
@@ -324,9 +326,16 @@ const Index = () => {
                       </p>
                     )}
                     <div className="flex items-center justify-between mt-4">
-                      <span className="text-3xl font-bold text-primary">
-                        {product.price === 0 ? 'Бесплатно' : `${product.price} ₽`}
-                      </span>
+                      <div className="flex flex-col items-start">
+                        <span className="text-3xl font-bold text-red-600">
+                          {product.price === 0 ? 'Бесплатно' : `${product.price} ₽`}
+                        </span>
+                        {product.discount && (
+                          <Badge className="mt-2 bg-red-600 text-white hover:bg-red-700">
+                            СКИДКА {product.discount}%
+                          </Badge>
+                        )}
+                      </div>
                     </div>
                   </div>
                 </CardContent>
