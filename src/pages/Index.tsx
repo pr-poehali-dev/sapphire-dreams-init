@@ -74,6 +74,14 @@ const Index = () => {
       category: 'Почасовая оплата',
       description: '9₽ в секунду - выгодное предложение',
       discount: 109
+    },
+    {
+      id: 6,
+      name: 'Супер Люкс Девушка Дрочиль',
+      price: 40,
+      image: 'https://cdn.poehali.dev/files/f4d142d8-8971-4b4c-a97d-bc9fe2a00c7e.jpg',
+      category: 'Супер Люкс',
+      description: 'Премиум качество по доступной цене'
     }
   ];
 
