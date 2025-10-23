@@ -56,6 +56,14 @@ const Index = () => {
       image: 'https://cdn.poehali.dev/files/607e056e-f367-4aec-8c5a-2b384ccb3328.jpg',
       category: 'Бесплатно',
       description: 'Абрама остается с вами навсегда'
+    },
+    {
+      id: 4,
+      name: 'Абрама секс-кукла',
+      price: 89990,
+      image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/9187bf73-ccb1-4798-922d-57de37c1b6c1.jpg',
+      category: 'Премиум',
+      description: 'Реалистичная премиум модель с анатомической точностью'
     }
   ];
 
