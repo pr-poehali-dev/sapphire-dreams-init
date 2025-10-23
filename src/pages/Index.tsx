@@ -64,6 +64,14 @@ const Index = () => {
       image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/9187bf73-ccb1-4798-922d-57de37c1b6c1.jpg',
       category: 'Премиум',
       description: 'Реалистичная премиум модель с анатомической точностью'
+    },
+    {
+      id: 5,
+      name: 'Антон Секс Девушка',
+      price: 9,
+      image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/8c0e0c0b-04a7-46c6-809c-d92c74a37bc7.jpg',
+      category: 'Почасовая оплата',
+      description: '9₽ в секунду - выгодное предложение'
     }
   ];
 
