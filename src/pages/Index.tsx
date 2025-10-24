@@ -82,6 +82,14 @@ const Index = () => {
       image: 'https://cdn.poehali.dev/files/f4d142d8-8971-4b4c-a97d-bc9fe2a00c7e.jpg',
       category: 'Супер Люкс',
       description: 'Премиум качество по доступной цене'
+    },
+    {
+      id: 7,
+      name: 'Супер Люкс Девушка',
+      price: 150,
+      image: 'https://cdn.poehali.dev/files/d2a56ed4-5b11-4957-aac7-44b2064f2071.jpg',
+      category: 'Почасовая оплата',
+      description: 'Абраса.Ру предлагает лучшие шлюха города Чебоксары наш товар это люкс престиж абрама.Ру хочешь купить красивую сучку? Бери у нас!'
     }
   ];
 
