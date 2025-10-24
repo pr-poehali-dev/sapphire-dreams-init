@@ -33,65 +33,7 @@ const Index = () => {
     address: ''
   });
 
-  const products: Product[] = [
-    {
-      id: 1,
-      name: 'Абрама на час',
-      price: 19990,
-      image: 'https://cdn.poehali.dev/files/a754dd4a-5872-4943-a8c6-89d234f513c2.jpg',
-      category: 'Популярное',
-      description: 'Абрама в вашем распоряжении целый час'
-    },
-    {
-      id: 2,
-      name: 'Абрама на день',
-      price: 20499,
-      image: 'https://cdn.poehali.dev/files/9cc8a5ae-8485-4a21-b426-42a9883f90be.jpg',
-      category: 'Хит продаж',
-      description: 'Целый день с Абрамой'
-    },
-    {
-      id: 3,
-      name: 'Абрама на всегда',
-      price: 0,
-      image: 'https://cdn.poehali.dev/files/607e056e-f367-4aec-8c5a-2b384ccb3328.jpg',
-      category: 'Бесплатно',
-      description: 'Абрама остается с вами навсегда'
-    },
-    {
-      id: 4,
-      name: 'Абрама секс-кукла',
-      price: 89990,
-      image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/9187bf73-ccb1-4798-922d-57de37c1b6c1.jpg',
-      category: 'Премиум',
-      description: 'Реалистичная премиум модель с анатомической точностью'
-    },
-    {
-      id: 5,
-      name: 'Антон Секс Девушка',
-      price: 9,
-      image: 'https://cdn.poehali.dev/projects/8bb91d75-c836-45e3-beb8-447cd2c4e7ef/files/8c0e0c0b-04a7-46c6-809c-d92c74a37bc7.jpg',
-      category: 'Почасовая оплата',
-      description: '9₽ в секунду - выгодное предложение',
-      discount: 109
-    },
-    {
-      id: 6,
-      name: 'Супер Люкс Девушка Дрочиль',
-      price: 40,
-      image: 'https://cdn.poehali.dev/files/f4d142d8-8971-4b4c-a97d-bc9fe2a00c7e.jpg',
-      category: 'Супер Люкс',
-      description: 'Премиум качество по доступной цене'
-    },
-    {
-      id: 7,
-      name: 'Супер Люкс Девушка',
-      price: 150,
-      image: 'https://cdn.poehali.dev/files/d2a56ed4-5b11-4957-aac7-44b2064f2071.jpg',
-      category: 'Почасовая оплата',
-      description: 'Абраса.Ру предлагает лучшие шлюха города Чебоксары наш товар это люкс престиж абрама.Ру хочешь купить красивую сучку? Бери у нас!'
-    }
-  ];
+  const products: Product[] = [];
 
   const addToCart = (product: Product) => {
     setCart(prev => {
